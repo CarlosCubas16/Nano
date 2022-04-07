@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.cuenta.CuentaFragment"
+    android:background="@color/light_white">
+
+    <include layout="@layout/app_bar_home"/>
+
+    <LinearLayout
+        android:id="@+id/linear_ayustes"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajustes"
+            style="@style/ThemeTextPrimaryBold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1.5"
+                android:padding="5dp"
+                android:src="@drawable/ic_baseline_person_outline_24" />
+            <TextView
+                android:id="@+id/txtMiInfoCuenta"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="8.5"
+                android:padding="5dp"
+                android:gravity="center_vertical"
+                android:text="Mi Información"
+                android:textColor="@color/black"
+                android:background="@drawable/background_ripple_white"
+                android:drawableEnd="@drawable/ic_baseline_arrow_right_24"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_ayuda"
+        app:layout_constraintTop_toBottomOf="@+id/linear_ayustes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ayuda"
+            style="@style/ThemeTextPrimaryBold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1.5"
+                android:padding="5dp"
+                android:src="@drawable/ic_baseline_featured_play_list_24" />
+            <TextView
+                android:id="@+id/txtGuiaFunCuenta"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="8.5"
+                android:padding="5dp"
+                android:gravity="center_vertical"
+                android:text="Guía de funciones"
+                android:textColor="@color/black"
+                android:background="@drawable/background_ripple_white"
+                android:drawableEnd="@drawable/ic_baseline_arrow_right_24"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="1px"
+                android:background="@color/white"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="8.5"
+                android:layout_height="2px"
+                android:background="@color/light_white_3"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1.5"
+                android:padding="5dp"
+                android:src="@drawable/ic_baseline_help_24" />
+            <TextView
+                android:id="@+id/txtCenAyudaCuenta"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="8.5"
+                android:padding="5dp"
+                android:gravity="center_vertical"
+                android:text="Centro de ayuda"
+                android:textColor="@color/black"
+                android:background="@drawable/background_ripple_white"
+                android:drawableEnd="@drawable/ic_baseline_arrow_right_24"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_mas"
+        app:layout_constraintTop_toBottomOf="@+id/linear_ayuda"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Más"
+            style="@style/ThemeTextPrimaryBold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1.5"
+                android:padding="5dp"
+                android:src="@drawable/ic_baseline_my_location_24" />
+            <TextView
+                android:id="@+id/txtSobreCuenta"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="8.5"
+                android:padding="5dp"
+                android:gravity="center_vertical"
+                android:text="Sobre"
+                android:textColor="@color/black"
+                android:background="@drawable/background_ripple_white"
+                android:drawableEnd="@drawable/ic_baseline_arrow_right_24"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="1px"
+                android:background="@color/white"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="8.5"
+                android:layout_height="2px"
+                android:background="@color/light_white_3"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1.5"
+                android:padding="5dp"
+                android:src="@drawable/ic_exit_dark" />
+            <TextView
+                android:id="@+id/txtCerrarSesionCuenta"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="8.5"
+                android:padding="5dp"
+                android:gravity="center_vertical"
+                android:text="Cerrar sesión"
+                android:textColor="@color/black"
+                android:background="@drawable/background_ripple_white"
+                android:drawableEnd="@drawable/ic_baseline_arrow_right_24"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

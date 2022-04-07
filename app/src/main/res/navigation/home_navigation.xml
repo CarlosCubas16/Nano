@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@id/mapFragment">
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.multigps.ui.map.MapsFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/historialFragment"
+        android:name="com.example.multigps.ui.historial.HistorialFragment"
+        android:label="Historiales"
+        tools:layout="@layout/fragment_historial" />
+    <fragment
+        android:id="@+id/perfilesFragment"
+        android:name="com.example.multigps.ui.perfiles.PerfilesFragment"
+        android:label="fragment_perfiles"
+        tools:layout="@layout/fragment_perfiles">
+        <action
+            android:id="@+id/action_perfilesFragment_to_perfilesCUFragment"
+            app:destination="@id/perfilesCUFragment"
+            app:enterAnim="@anim/from_rigth"
+            app:exitAnim="@anim/to_left" />
+        <action
+            android:id="@+id/action_perfilesFragment_to_perfilesElementoFragment"
+            app:destination="@id/perfilesElementoFragment"
+            app:enterAnim="@anim/from_rigth"
+            app:exitAnim="@anim/to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilesCUFragment"
+        android:name="com.example.multigps.ui.perfiles.cu.PerfilesCuFragment"
+        android:label="Perfiles"
+        tools:layout="@layout/fragment_perfiles_cu">
+        <action
+            android:id="@+id/action_perfilesCUFragment_to_perfilesFragment"
+            app:destination="@id/perfilesFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_perfilesCUFragment_to_perfilesElementoFragment"
+            app:destination="@id/perfilesElementoFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilesElementoFragment"
+        android:name="com.example.multigps.ui.perfiles.elemento.PerfilesElementoFragment"
+        android:label="Elemento"
+        tools:layout="@layout/fragment_perfiles_elemento">
+        <action
+            android:id="@+id/action_perfilesElementoFragment_to_perfilesFragment"
+            app:destination="@id/perfilesFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_perfilesElementoFragment_to_perfilesCUFragment"
+            app:destination="@id/perfilesCUFragment"
+            app:enterAnim="@anim/from_rigth"
+            app:exitAnim="@anim/to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilElementoFragment"
+        android:name="com.example.multigps.ui.perfiles.elemento.fragments.PerfilElementoFragment"
+        android:label="Elemento"
+        tools:layout="@layout/fragment_perfil_elemento"/>
+    <fragment
+        android:id="@+id/perfilLocalizadorFragment"
+        android:name="com.example.multigps.ui.perfiles.elemento.fragments.PerfilLocalizadorFragment"
+        android:label="Localizador"
+        tools:layout="@layout/fragment_perfil_localizador"/>
+    <fragment
+        android:id="@+id/cuentaFragment"
+        android:name="com.example.multigps.ui.cuenta.CuentaFragment"
+        android:label="Cuenta"
+        tools:layout="@layout/fragment_cuenta"/>
+</navigation>

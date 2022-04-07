@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/background_camera.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/background_ripple_white.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/bg_custom.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/btn_custom.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/btn_custom_primary.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/btn_custom_white.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/btn_dos.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/btn_ripple.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/btn_ripple_primary.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/btn_ripple_white.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/btn_round.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/btn_round_primary.xml" value="10.0" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/btn_round_ripple_white.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/btn_round_white.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/btn_rounded.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/btn_rounded_transparent.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/btn_rounded_transparent_focused.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/corner_background.xml" value="0.20364583333333333" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/custom_bottom_nav.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/ic_baseline_arrow_right_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/ic_baseline_calendar_month_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/ic_baseline_featured_play_list_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/ic_baseline_help_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/ic_baseline_insert_emoticon_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/ic_baseline_multiline_chart_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/ic_baseline_my_location_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/ic_exit_dark.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/input_primary.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/item_selector.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/linear_round.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/linear_round_profile.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/linear_white.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/txt_apareance_title_toolbar.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/txt_btn_doa.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/drawable/txt_btn_dos.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/activity_auth.xml" value="0.264" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/activity_example.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/activity_home.xml" value="0.176" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/activity_maps.xml" value="0.2" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/activity_on_board.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/activity_question.xml" value="0.152" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/auth_auth.xml" value="0.264" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/fragment_auth.xml" value="0.264" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/fragment_cuenta.xml" value="0.1" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/fragment_forgot_password.xml" value="0.4" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/fragment_historial.xml" value="0.1671875" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/fragment_home.xml" value="0.1671875" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/fragment_login.xml" value="0.24295432458697766" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/fragment_map.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/fragment_maps.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/fragment_perfiles.xml" value="0.264" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/fragment_question.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/fragment_register.xml" value="0.264" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/question_auth.xml" value="0.176" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/layout/view_pager.xml" value="0.2" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/menu/bottom_menu_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/menu/home.xml" value="0.13125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/MultiGPS/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/drawable/background_edit_text.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/drawable/background_perfil.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/drawable/background_ripple_white.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/drawable/btn_ripple_white.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/drawable/btn_rounded_transparent.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/drawable/ic_baseline_insert_emoticon_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/drawable/ic_upload.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/drawable/ic_upload_100.xml" value="0.11354166666666667" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/drawable/list_item.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/activity_auth.xml" value="0.1" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/app_bar_back.xml" value="0.1" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/app_bar_home.xml" value="0.2" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/fragment_auth.xml" value="0.1" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/fragment_cuenta.xml" value="0.264" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/fragment_forgot_password.xml" value="0.1" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/fragment_login.xml" value="0.24365942028985507" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/fragment_maps.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/fragment_perfil_elemento.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/fragment_perfil_localizador.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/fragment_perfile_elemento.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/fragment_perfiles.xml" value="0.152" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/fragment_perfiles_cu.xml" value="0.176" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/fragment_perfiles_elemento.xml" value="0.1115702479338843" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/fragment_question.xml" value="0.1" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/fragment_register.xml" value="0.24365942028985507" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/layout_perfil.xml" value="0.264" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/list_item.xml" value="0.13125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/layout/view_pager.xml" value="0.165625" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/menu/menu_add.xml" value="0.264" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsAppAndroid/app/src/main/res/menu/menu_check.xml" value="0.536" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsWeb/app/src/main/res/drawable-v24/background_profile.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsWeb/app/src/main/res/drawable/background_camera.xml" value="0.2703125" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsWeb/app/src/main/res/layout/fragment_auth.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsWeb/app/src/main/res/layout/fragment_cuenta.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsWeb/app/src/main/res/layout/fragment_historial.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsWeb/app/src/main/res/layout/fragment_perfiles.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/CARLOS/AndroidStudioProjects/NanoGpsWeb/app/src/main/res/layout/fragment_question.xml" value="0.25181159420289856" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

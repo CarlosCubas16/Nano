@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragments.AuthFragment">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageContiner"
+        android:background="@drawable/gif_inicio"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="@color/black"
+        android:orientation="vertical" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:alpha="1"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_signInAuth"
+                android:layout_weight="2"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/btn_ripple_primary"
+                app:backgroundTint="@null"
+                app:strokeColor="@null"
+                android:text="Iniciar Sesión"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_signUpAuth"
+                android:layout_weight="2"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/btn_ripple_white"
+                app:backgroundTint="@null"
+                app:strokeColor="@null"
+                android:text="REGISTRARME"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/im_auth"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:background="@drawable/btn_round"
+        android:layout_margin="10dp"/>
+
+
+</RelativeLayout>

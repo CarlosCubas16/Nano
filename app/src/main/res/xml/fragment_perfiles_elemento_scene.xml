@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/container_elemento_perfil_header"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/space_photo_elemento_perfil"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="10dp"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/space_name_perfil"
+            android:layout_width="30dp"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/name_elemento_perfil_aux"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:layout_constraintTop_toBottomOf="@id/civ_elemento_perfil"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="15dp" />
+        <Constraint
+            android:id="@+id/civ_elemento_perfil"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/container_elemento_perfil_header"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="-40dp"
+            android:visibility="visible"/>
+        <Constraint
+            android:id="@+id/iv_change_perfil"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:layout_constraintTop_toBottomOf="@+id/container_elemento_perfil_header"
+            app:layout_constraintHorizontal_bias="0.590"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="30dp" />
+        <Constraint
+            android:id="@+id/toolbar_perfil_elemento_1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:visibility="visible"
+            android:alpha="0.5" />
+        <Constraint
+            android:id="@+id/name_elemento_perfil"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@id/civ_elemento_perfil"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="15dp" />
+        <Constraint
+            android:id="@+id/space_ajuste"
+            app:layout_constraintStart_toEndOf="@+id/space_name_perfil"
+            android:layout_width="30dp"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/container"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tablayout_perfiles_elemento"
+            app:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/civ_elemento_perfil_aux"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/container_elemento_perfil_header"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="-40dp"
+            android:visibility="invisible" />
+        <Constraint
+            android:id="@+id/tablayout_perfiles_elemento"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/name_elemento_perfil"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="10dp" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/container_elemento_perfil_header"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:visibility="invisible"/>
+        <Constraint
+            android:id="@+id/space_photo_elemento_perfil"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="10dp"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/space_name_perfil"
+            android:layout_width="30dp"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/name_elemento_perfil_aux"
+            app:layout_constraintStart_toEndOf="@+id/space_ajuste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar_perfil_elemento_1" />
+        <Constraint
+            android:id="@+id/civ_elemento_perfil"
+            app:layout_constraintEnd_toStartOf="@+id/space_photo_elemento_perfil"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar_perfil_elemento_1"
+            android:visibility="invisible"/>
+        <Constraint
+            android:id="@+id/iv_change_perfil"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            app:layout_constraintEnd_toStartOf="@+id/space_photo_elemento_perfil"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="35dp"
+            android:visibility="invisible"/>
+        <Constraint
+            android:id="@+id/toolbar_perfil_elemento_1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:visibility="visible" />
+        <Constraint
+            android:id="@+id/name_elemento_perfil"
+            app:layout_constraintStart_toEndOf="@+id/space_ajuste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar_perfil_elemento_1"
+            android:visibility="invisible"/>
+        <Constraint
+            android:id="@+id/space_ajuste"
+            app:layout_constraintStart_toEndOf="@+id/space_name_perfil"
+            android:layout_width="30dp"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/container"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tablayout_perfiles_elemento"
+            app:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/civ_elemento_perfil_aux"
+            app:layout_constraintEnd_toStartOf="@+id/space_photo_elemento_perfil"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar_perfil_elemento_1"
+            android:visibility="visible"/>
+        <Constraint
+            android:id="@+id/tablayout_perfiles_elemento"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar_perfil_elemento_1"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="10dp" />
+    </ConstraintSet>
+
+    <Transition
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@+id/start">
+        <OnSwipe
+            app:touchAnchorId="@id/container"
+            app:touchAnchorSide="top"
+            app:dragDirection="dragUp"/>
+        <KeyFrameSet >
+            <KeyAttribute
+                app:motionTarget="@+id/civ_elemento_perfil"
+                app:framePosition="10"
+                android:translationX="20dp" />
+            <KeyAttribute
+                app:motionTarget="@+id/civ_elemento_perfil_aux"
+                app:framePosition="10"
+                android:translationX="20dp" />
+            <KeyAttribute
+                app:motionTarget="@+id/iv_change_perfil"
+                app:framePosition="10"
+                android:translationX="20dp" />
+            <KeyAttribute
+                app:motionTarget="@+id/name_elemento_perfil"
+                app:framePosition="10"
+                android:translationX="-20dp" />
+            <KeyAttribute
+                app:motionTarget="@+id/name_elemento_perfil_aux"
+                app:framePosition="10"
+                android:translationX="-20dp" />
+        </KeyFrameSet>
+    </Transition>
+</MotionScene>
